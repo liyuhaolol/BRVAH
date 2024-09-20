@@ -35,4 +35,5 @@ proguard/
 *.iml
 .gradle
 .idea
+.kotlin
 build

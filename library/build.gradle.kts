@@ -82,18 +82,18 @@ if (localProperties.exists()) {
 centralPortal {
     username = ossrhUsername
     password = ossrhPassword
-    name = "CommonUtils"
+    name = "BRVAH"
     group = "io.github.liyuhaolol"
     version = "4.1.6"
     pom {
         //packaging = "aar"
-        name = "CommonUtils"
-        description = "Powerful Utils"
-        url = "https://github.com/liyuhaolol/CommonUtils"
+        name = "BRVAH"
+        description = "Powerful BRVAH"
+        url = "https://github.com/liyuhaolol/BRVAH"
         licenses {
             license {
                 name = "The MIT License"
-                url = "https://github.com/liyuhaolol/CommonUtils/blob/master/LICENSE"
+                url = "https://github.com/liyuhaolol/BRVAH/blob/master/LICENSE"
             }
         }
         developers {
@@ -104,9 +104,9 @@ centralPortal {
             }
         }
         scm {
-            connection = "scm:git@github.com/liyuhaolol/CommonUtils.git"
-            developerConnection = "scm:git@github.com/liyuhaolol/CommonUtils.git"
-            url = "https://github.com/liyuhaolol/CommonUtils"
+            connection = "scm:git@github.com/liyuhaolol/BRVAH.git"
+            developerConnection = "scm:git@github.com/liyuhaolol/BRVAH.git"
+            url = "https://github.com/liyuhaolol/BRVAH"
         }
 
     }

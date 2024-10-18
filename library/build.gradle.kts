@@ -9,8 +9,6 @@ plugins {
     id("net.thebugmc.gradle.sonatype-central-portal-publisher") version "1.2.3"
 }
 
-val versionName = "4.1.6"
-
 
 android {
     namespace = "com.chad.library.adapter4"
@@ -44,11 +42,11 @@ android {
 
 
 dependencies {
-    implementation("androidx.annotation:annotation:1.8.0")
+    implementation("androidx.annotation:annotation:1.9.0")
 
-    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    api("androidx.recyclerview:recyclerview:1.3.2")
 
-    implementation("androidx.databinding:databinding-runtime:8.0.0")
+    implementation("androidx.databinding:databinding-runtime:8.7.1")
 }
 
 //---------- maven upload info -----------------------------------
@@ -84,7 +82,7 @@ centralPortal {
     password = ossrhPassword
     name = "BRVAH"
     group = "io.github.liyuhaolol"
-    version = "4.1.6"
+    version = "4.1.7"
     pom {
         //packaging = "aar"
         name = "BRVAH"
